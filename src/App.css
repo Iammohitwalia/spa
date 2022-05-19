@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -12,7 +13,41 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+a.menu-item {
+  color: black;
+  text-decoration: none;
+  padding: 20px;
+  opacity: 0.5;
+}
+.banner {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background: rgba(5, 219, 34, 0.767);
+  color: white;
+}
+.about {
+ 
+  background: rgba(255, 145, 0, 0.897);
+  color: white;
+}
+.contact {
+ 
+  background: rgba(1, 117, 212, 0.781);
+  color: white;
+}
 
+ul.footer-menus {
+  
+  text-align: center;
+  padding: 20px;
+}
+a.menu-item.active {
+
+  opacity: 1;
+}
+.footer-menus li{
+  list-style:none;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
