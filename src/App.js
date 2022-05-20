@@ -25,7 +25,7 @@ function App() {
 <Route path='/spa' element={<Homepage/>} />
 <Route path='/about' element={<About/>} />
 <Route path='/contact' element={<Contact/>} />
-<Route path='*' element={<Homepage/>} />
+<Route path='*' element={<Error/>} />
 <Route path='/post/:category' element={<Post/>} />
 <Route path='/post/:category/:id' element={<Post/>} />
 <Route path='/dashboard' element={isLogged ? <Dashboard/> : <Navigate to='/login' replace state={data}/>} />
