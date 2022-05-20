@@ -71,3 +71,38 @@ a.menu-item.active {
     transform: rotate(360deg);
   }
 }
+
+@media only screen and (max-width: 560px) {
+
+
+  #foot.d-flex {
+      display: flex!important;
+      flex-direction: column;
+  }
+  
+  #foot .text-center {
+      text-align: left !important;
+  }
+  
+  #foot a.menu-item {
+      padding: 0px;
+  }
+  
+  #foot .footer-menus li {
+      list-style: none;
+      padding: 5px 0;
+  }
+  
+  #foot .col-sm-4 {
+      margin-top: 20px;
+  }
+ #foot span.navbar-brand {
+      font-size: 17px;
+  }
+  }
+  
+  
+  
+  
+  
+  
