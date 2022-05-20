@@ -17,7 +17,7 @@ const Footer = () => {
           <div className='col-sm-4'>
             <h5 className='text-center'>Quick Links</h5>
             <ul className='footer-menus'>
-              <li><NavLink className='menu-item' to='/' isactive >Homepage</NavLink>
+              <li><NavLink className='menu-item' to='/spa' isactive >Homepage</NavLink>
 
               </li>
               <li>      <NavLink className='menu-item' to='/about'>About</NavLink> </li>
@@ -27,7 +27,7 @@ const Footer = () => {
           <div className='col-sm-4'>
             <h5 className='text-center'>Services</h5>
             <ul className='footer-menus'>
-              <li><NavLink className='menu-item' to='/' isactive >Homepage</NavLink>
+              <li><NavLink className='menu-item' to='/spa' isactive >Homepage</NavLink>
 
               </li>
               <li>      <NavLink className='menu-item' to='/about'>About</NavLink> </li>

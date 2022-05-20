@@ -14,7 +14,7 @@ import { Navbar } from 'react-bootstrap'
 
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
-      <NavLink className='menu-item' to='/' isactive >Homepage</NavLink>
+      <NavLink className='menu-item' to='/spa' isactive >Homepage</NavLink>
       <NavLink className='menu-item' to='/about'>About</NavLink>    
       <NavLink className='menu-item' to='/contact'>Contact</NavLink>    
       </Nav>
